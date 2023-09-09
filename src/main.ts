@@ -2,5 +2,6 @@ import { createApp } from "vue";
 import "./styles.css";
 import App from "./App.vue";
 import router from "./router/router.js";
-createApp(App).use(router)
-    .mount("#app");
+import VXETable from 'vxe-table'
+import 'vxe-table/lib/style.css'
+createApp(App).use(router).use(VXETable).mount("#app");

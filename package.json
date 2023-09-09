@@ -11,7 +11,9 @@
   },
   "dependencies": {
     "@tauri-apps/api": "^1.2.0",
-    "vue": "^3.2.45"
+    "vue": "^3.2.45",
+    "vxe-table": "^4.5.9",
+    "xe-utils": "^3.5.13"
   },
   "devDependencies": {
     "@tauri-apps/cli": "^1.2.2",
